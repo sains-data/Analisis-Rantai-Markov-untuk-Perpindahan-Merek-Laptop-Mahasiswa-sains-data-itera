@@ -32,7 +32,13 @@ Akses cepat ke seluruh artefak penelitian proyek ini:
 | **📊 Dataset** | Data survei mahasiswa yang telah dibersihkan (CSV) | [Lihat Dataset](data/dataset_clean.csv) |
 | **🖼️ Poster** | Infografis ringkasan penelitian | [Lihat Poster](poster/PEMODELAN%20TRANSISI%20PREFERENSI%20MEREK%20MENGGUNAKAN%20RANTAI%20MARKOV.png) |
 | **🎥 Video** | Video demonstrasi dan penjelasan proyek | [Tonton Video](video/video.md) |
-| **💻 Kode** | Implementasi analisis dalam R | [R](R/) |
+| **💻 Kode** | Implementasi analisis dalam Python dan R | [Python](Python/) / [R](R/) |
+
+## 🎥 Video Demonstrasi
+
+[![Demo Analisis Rantai Markov](https://img.youtube.com/vi/Jq9mSt8LByE/0.jpg)](https://www.youtube.com/watch?v=Jq9mSt8LByE)
+
+## ✨ Fitur
 
 ## ✨ Fitur
 
