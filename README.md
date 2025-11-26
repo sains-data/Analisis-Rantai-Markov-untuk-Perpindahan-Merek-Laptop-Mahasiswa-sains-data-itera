@@ -8,6 +8,7 @@ Proyek ini menyajikan analisis mendalam Rantai Markov berdasarkan data survei ma
 
 ## 📋 Daftar Isi
 
+- [Dokumentasi & Aset](#-dokumentasi--aset-lengkap)
 - [Fitur](#-fitur)
 - [Instalasi](#-instalasi)
 - [Penggunaan](#-penggunaan)
@@ -17,6 +18,19 @@ Proyek ini menyajikan analisis mendalam Rantai Markov berdasarkan data survei ma
 - [Kontribusi](#-kontribusi)
 - [Lisensi](#-lisensi)
 - [Referensi](#-referensi)
+
+## 📚 Dokumentasi & Aset Lengkap
+
+Akses cepat ke seluruh artefak penelitian proyek ini:
+
+| Aset | Deskripsi | Tautan |
+|------|-----------|--------|
+| **📄 Paper** | Laporan lengkap penelitian dalam format PDF | [Buka Paper](docs/paper.pdf) |
+
+| **📊 Dataset** | Data survei mahasiswa yang telah dibersihkan (CSV) | [Lihat Dataset](data/dataset_clean.csv) |
+| **🖼️ Poster** | Infografis ringkasan penelitian | [Lihat Poster](poster/PEMODELAN%20TRANSISI%20PREFERENSI%20MEREK%20MENGGUNAKAN%20RANTAI%20MARKOV.png) |
+| **🎥 Video** | Video demonstrasi dan penjelasan proyek | [Tonton Video](video/video.md) |
+| **💻 Kode** | Implementasi analisis dalam R | [R](R/) |
 
 ## ✨ Fitur
 
@@ -113,13 +127,19 @@ Rscript R/markov_analysis.R
 ```
 analisis-rantai-markov-perpindahan-merek-laptop/
 ├── data/
-│   └── datapemstok.csv          # Data survei mahasiswa
-├── docs/                        # Dokumentasi tambahan
+│   ├── dataset.csv              # Data survei asli
+│   └── dataset_clean.csv        # Data survei yang telah dibersihkan
+├── docs/
+│   └── paper.pdf                # Paper akademik
 ├── output/                      # Hasil analisis (dihasilkan)
 │   ├── transition_matrix.csv
 │   ├── stationary_distribution.csv
 │   ├── state_classification.csv
 │   └── *.png                    # Grafik visualisasi
+├── poster/
+│   └── PEMODELAN...MARKOV.png   # Poster penelitian
+├── video/
+│   └── video.md                 # Link ke video demonstrasi
 ├── Python/
 │   ├── markov_analysis.py       # Script analisis Python
 │   └── markov_analysis_notebook.ipynb  # Notebook Jupyter Python

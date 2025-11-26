@@ -16,20 +16,23 @@ library(gridExtra)
 theme_set(theme_minimal() + theme(plot.title = element_text(hjust = 0.5, face = "bold")))
 
 # 1. Load dan Bersihkan Data
-data <- read.csv("../data/datapemstok.csv", encoding = "latin1")
+# Menggunakan dataset yang telah dibersihkan
+data <- read.csv("../data/dataset_clean.csv", encoding = "latin1")
 
 # Select relevant columns
+# Menggunakan indeks kolom untuk menghindari kesalahan penulisan nama kolom yang panjang
 data_clean <- data %>%
   select(
-    first_brand = "Apa.merek.laptop.yang.pertama.kali.Anda.gunakan.saat.menjadi.mahasiswa",
-    still_same = "Apakah.saat.ini.Anda.masih.menggunakan.laptop.yang.sama.",
-    current_brand = "Apabila.Anda.sudah.pernah.berganti.laptop..apa.merek.laptop.Anda.saat.ini."
+    first_brand = 1, # Merek pertama
+    still_same = 2,  # Apakah masih sama
+    current_brand = 3 # Merek saat ini
   )
 
 # Handle logic
 data_clean <- data_clean %>%
   mutate(current_brand = ifelse(still_same == "Ya", first_brand, current_brand)) %>%
-  drop_na(first_brand, current_brand)
+  drop_na(first_brand, current_brand) %>%
+  filter(first_brand != "" & current_brand != "")
 
 print("Pratinjau data bersih:")
 print(head(data_clean))

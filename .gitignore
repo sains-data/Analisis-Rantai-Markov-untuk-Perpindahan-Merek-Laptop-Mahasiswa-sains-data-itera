@@ -131,9 +131,9 @@ dmypy.json
 .pyre/
 
 # Output files
-output/
-*.png
-*.csv
+# output/
+# *.png
+# *.csv
 
 # IDE
 .vscode/
