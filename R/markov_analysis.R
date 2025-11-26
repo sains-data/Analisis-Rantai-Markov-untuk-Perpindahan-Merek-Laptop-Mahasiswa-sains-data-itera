@@ -373,5 +373,3 @@ print(simulasi)
 write.csv(transition_matrix, "../output/transition_matrix_R.csv")
 write.csv(df_steady, "../output/stationary_distribution_R.csv", row.names = FALSE)
 write.csv(classification, "../output/state_classification_R.csv", row.names = FALSE)
-
-print("Hasil utama diekspor ke file CSV di direktori output.")

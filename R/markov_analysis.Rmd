@@ -256,7 +256,3 @@ write.csv(classification_df, "../output/state_classification_R.csv", row.names =
 
 print("Hasil diekspor ke direktori output.")
 ```
-
-# Kesimpulan
-
-Analisis Rantai Markov ini memberikan wawasan tentang perpindahan merek laptop mahasiswa. Dengan menggunakan R dan R Markdown, analisis ini dapat direproduksi dan dipublikasikan dengan mudah.
