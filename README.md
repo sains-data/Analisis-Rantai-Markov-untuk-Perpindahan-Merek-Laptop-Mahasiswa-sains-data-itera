@@ -5,6 +5,9 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 Proyek ini menyajikan analisis mendalam Rantai Markov berdasarkan data survei mahasiswa tentang perpindahan merek laptop. Menggunakan metodologi standar dalam literatur akademik untuk memodelkan perilaku konsumen dan memprediksi pangsa pasar jangka panjang.
+<img width="2245" height="3179" alt="PEMODELAN TRANSISI PREFERENSI MEREK MENGGUNAKAN RANTAI MARKOV" src="https://github.com/user-attachments/assets/875ac33c-4da7-426b-bf12-0841420b3f21" />
+
+
 
 ## 📋 Daftar Isi
 
