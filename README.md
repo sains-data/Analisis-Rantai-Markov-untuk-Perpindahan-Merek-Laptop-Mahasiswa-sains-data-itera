@@ -28,7 +28,7 @@ Akses cepat ke seluruh artefak penelitian proyek ini:
 
 | Aset | Deskripsi | Tautan |
 |------|-----------|--------|
-| **📄 Paper** | Laporan lengkap penelitian dalam format PDF | [Buka Paper](docs/paper.pdf) |
+| **📄 Paper** | Laporan lengkap penelitian dalam format PDF | [Buka Paper](docs/Tubes PemStok Kelompok 7 RB[1].pdf) |
 | **📊 Dataset** | Data survei mahasiswa yang telah dibersihkan (CSV) | [Lihat Dataset](data/dataset_clean.csv) |
 | **🖼️ Poster** | Infografis ringkasan penelitian | [Lihat Poster](poster/PEMODELAN%20TRANSISI%20PREFERENSI%20MEREK%20MENGGUNAKAN%20RANTAI%20MARKOV.png) |
 | **🎥 Video** | Video demonstrasi dan penjelasan proyek | [Tonton Video](video/video.md) |
